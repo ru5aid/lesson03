@@ -6,6 +6,7 @@ let deposit = confirm('Есть ли у вас депозит в банке?');
 
 console.log(typeof money);
 console.log(typeof addExpenses);
+console.log(addExpenses.toLowerCase().split(', '));
 console.log(typeof deposit);
 
 let expenses1 = prompt('Введите обязательную статью расходов?','car');
