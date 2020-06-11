@@ -8,18 +8,14 @@ console.log(typeof money);
 console.log(typeof addExpenses);
 console.log(typeof deposit);
 
-let str = addExpenses;
-console.log(str.split(', '));
-
-
 let expenses1 = prompt('Введите обязательную статью расходов?','car');
-let expenses2 = prompt('Введите обязательную статью расходов?','lease');
 let amount1 = +prompt('Во сколько это обойдется?','700');
+let expenses2 = prompt('Введите обязательную статью расходов?','lease');
 let amount2 = +prompt('Во сколько это обойдется?','400');
 
 console.log(expenses1);
-console.log(expenses2);
 console.log(amount1);
+console.log(expenses2);
 console.log(amount2);
 
 let budgetMonth = +money - (amount1 + amount2);
